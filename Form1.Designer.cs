@@ -66,9 +66,9 @@ namespace WindowsFormsApp1
             this.grpExam.SuspendLayout();
             this.grpFinal.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // lblTitle
-            // 
+            
+            // Title
+            
             this.lblTitle.BackColor = System.Drawing.Color.Maroon;
             this.lblTitle.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
@@ -79,9 +79,9 @@ namespace WindowsFormsApp1
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "GRADE CALCULATOR SYSTEM";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // grpQuiz
-            // 
+            
+            // groupQuizmeowzerrss
+        
             this.grpQuiz.Controls.Add(this.label3);
             this.grpQuiz.Controls.Add(this.textBox4);
             this.grpQuiz.Controls.Add(this.label2);
@@ -98,16 +98,16 @@ namespace WindowsFormsApp1
             this.grpQuiz.TabStop = false;
             this.grpQuiz.Text = "Quizzes (30%)";
             this.grpQuiz.Enter += new System.EventHandler(this.grpQuiz_Enter);
-            // 
-            // txtQuiz1
-            // 
+            
+            // textQuiz1
+         
             this.txtQuiz1.Location = new System.Drawing.Point(100, 30);
             this.txtQuiz1.Name = "txtQuiz1";
             this.txtQuiz1.Size = new System.Drawing.Size(100, 25);
             this.txtQuiz1.TabIndex = 2;
-            // 
-            // txtQuiz2
-            // 
+            
+            // textQuiz2
+            
             this.txtQuiz2.Location = new System.Drawing.Point(100, 60);
             this.txtQuiz2.Name = "txtQuiz2";
             this.txtQuiz2.Size = new System.Drawing.Size(100, 25);
@@ -120,9 +120,9 @@ namespace WindowsFormsApp1
             this.lblQuizAvg.Size = new System.Drawing.Size(100, 23);
             this.lblQuizAvg.TabIndex = 4;
             this.lblQuizAvg.Text = "Average:";
-            // 
-            // grpCoding
-            // 
+            
+            // groupCoding
+            
             this.grpCoding.Controls.Add(this.textBox5);
             this.grpCoding.Controls.Add(this.label6);
             this.grpCoding.Controls.Add(this.label5);
@@ -138,40 +138,40 @@ namespace WindowsFormsApp1
             this.grpCoding.TabIndex = 2;
             this.grpCoding.TabStop = false;
             this.grpCoding.Text = "Coding Challenges (30%)";
-            // 
+        
             // txtCode1
-            // 
+            
             this.txtCode1.Location = new System.Drawing.Point(130, 30);
             this.txtCode1.Name = "txtCode1";
             this.txtCode1.Size = new System.Drawing.Size(100, 25);
             this.txtCode1.TabIndex = 2;
-            // 
+            
             // txtCode2
-            // 
+            
             this.txtCode2.Location = new System.Drawing.Point(130, 60);
             this.txtCode2.Name = "txtCode2";
             this.txtCode2.Size = new System.Drawing.Size(100, 25);
             this.txtCode2.TabIndex = 3;
-            // 
+            
             // lblCodeAvg
-            // 
+            
             this.lblCodeAvg.Location = new System.Drawing.Point(15, 100);
             this.lblCodeAvg.Name = "lblCodeAvg";
             this.lblCodeAvg.Size = new System.Drawing.Size(100, 23);
             this.lblCodeAvg.TabIndex = 4;
             this.lblCodeAvg.Text = "Average:";
-            // 
+            
             // txtCodeAvg
-            // 
+            
             this.txtCodeAvg.BackColor = System.Drawing.Color.LightGray;
             this.txtCodeAvg.Location = new System.Drawing.Point(130, 100);
             this.txtCodeAvg.Name = "txtCodeAvg";
             this.txtCodeAvg.ReadOnly = true;
             this.txtCodeAvg.Size = new System.Drawing.Size(100, 25);
             this.txtCodeAvg.TabIndex = 5;
-            // 
+            
             // grpExam
-            // 
+            
             this.grpExam.Controls.Add(this.label8);
             this.grpExam.Controls.Add(this.label7);
             this.grpExam.Controls.Add(this.textBox2);
@@ -184,16 +184,16 @@ namespace WindowsFormsApp1
             this.grpExam.TabStop = false;
             this.grpExam.Text = "Major Examination (40%)";
             this.grpExam.Enter += new System.EventHandler(this.grpExam_Enter);
-            // 
+            
             // txtExam
-            // 
+            
             this.txtExam.Location = new System.Drawing.Point(110, 50);
             this.txtExam.Name = "txtExam";
             this.txtExam.Size = new System.Drawing.Size(100, 25);
             this.txtExam.TabIndex = 1;
-            // 
+            
             // grpFinal
-            // 
+            
             this.grpFinal.Controls.Add(this.label9);
             this.grpFinal.Controls.Add(this.textBox3);
             this.grpFinal.Controls.Add(this.lblFinalPercent);
@@ -208,43 +208,43 @@ namespace WindowsFormsApp1
             this.grpFinal.TabStop = false;
             this.grpFinal.Text = "Final Result";
             this.grpFinal.Enter += new System.EventHandler(this.grpFinal_Enter);
-            // 
+            
             // lblFinalPercent
-            // 
+            
             this.lblFinalPercent.Location = new System.Drawing.Point(20, 40);
             this.lblFinalPercent.Name = "lblFinalPercent";
             this.lblFinalPercent.Size = new System.Drawing.Size(100, 23);
             this.lblFinalPercent.TabIndex = 0;
             this.lblFinalPercent.Text = "Final Percentage:";
-            // 
+            
             // txtFinalPercent
-            // 
+            
             this.txtFinalPercent.BackColor = System.Drawing.Color.LightGray;
             this.txtFinalPercent.Location = new System.Drawing.Point(126, 38);
             this.txtFinalPercent.Name = "txtFinalPercent";
             this.txtFinalPercent.ReadOnly = true;
             this.txtFinalPercent.Size = new System.Drawing.Size(100, 25);
             this.txtFinalPercent.TabIndex = 1;
-            // 
+            
             // lblFinalGrade
-            // 
+            
             this.lblFinalGrade.Location = new System.Drawing.Point(20, 80);
             this.lblFinalGrade.Name = "lblFinalGrade";
             this.lblFinalGrade.Size = new System.Drawing.Size(100, 23);
             this.lblFinalGrade.TabIndex = 2;
             this.lblFinalGrade.Text = "Final Grade:";
-            // 
+            
             // txtFinalGrade
-            // 
+            
             this.txtFinalGrade.BackColor = System.Drawing.Color.LightGray;
             this.txtFinalGrade.Location = new System.Drawing.Point(126, 77);
             this.txtFinalGrade.Name = "txtFinalGrade";
             this.txtFinalGrade.ReadOnly = true;
             this.txtFinalGrade.Size = new System.Drawing.Size(100, 25);
             this.txtFinalGrade.TabIndex = 3;
-            // 
+            
             // btnCalculate
-            // 
+            
             this.btnCalculate.BackColor = System.Drawing.Color.Maroon;
             this.btnCalculate.ForeColor = System.Drawing.Color.White;
             this.btnCalculate.Location = new System.Drawing.Point(494, 440);
@@ -254,36 +254,36 @@ namespace WindowsFormsApp1
             this.btnCalculate.Text = "Calculate";
             this.btnCalculate.UseVisualStyleBackColor = false;
             this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
-            // 
+            
             // btnClear
-            // 
+            
             this.btnClear.Location = new System.Drawing.Point(610, 440);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(90, 35);
             this.btnClear.TabIndex = 6;
             this.btnClear.Text = "Clear";
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
-            // 
+            
             // btnExit
-            // 
+            
             this.btnExit.Location = new System.Drawing.Point(706, 440);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(90, 35);
             this.btnExit.TabIndex = 7;
             this.btnExit.Text = "Exit";
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
-            // 
+            
             // textBox1
-            // 
+            
             this.textBox1.BackColor = System.Drawing.Color.LightGray;
             this.textBox1.Location = new System.Drawing.Point(100, 100);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(100, 25);
             this.textBox1.TabIndex = 5;
-            // 
+            
             // textBox2
-            // 
+        
             this.textBox2.BackColor = System.Drawing.Color.LightGray;
             this.textBox2.Location = new System.Drawing.Point(110, 81);
             this.textBox2.Name = "textBox2";
@@ -291,112 +291,111 @@ namespace WindowsFormsApp1
             this.textBox2.Size = new System.Drawing.Size(100, 25);
             this.textBox2.TabIndex = 6;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
-            // 
+            
             // label1
-            // 
+            
             this.label1.Location = new System.Drawing.Point(15, 34);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(66, 23);
             this.label1.TabIndex = 6;
             this.label1.Text = "Quiz 1";
             this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
+            
             // label2
-            // 
+            
             this.label2.Location = new System.Drawing.Point(15, 62);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(66, 23);
             this.label2.TabIndex = 7;
             this.label2.Text = "Quiz 2";
             this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
+            
             // textBox4
-            // 
+            
             this.textBox4.BackColor = System.Drawing.Color.LightGray;
             this.textBox4.Location = new System.Drawing.Point(100, 131);
             this.textBox4.Name = "textBox4";
             this.textBox4.ReadOnly = true;
             this.textBox4.Size = new System.Drawing.Size(100, 25);
             this.textBox4.TabIndex = 8;
-            // 
+            
             // label3
-            // 
+            
             this.label3.Location = new System.Drawing.Point(15, 131);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(79, 23);
             this.label3.TabIndex = 9;
             this.label3.Text = "Remarks:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
-            // 
+            
             // label4
-            // 
+            
             this.label4.Location = new System.Drawing.Point(15, 30);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(92, 23);
             this.label4.TabIndex = 7;
             this.label4.Text = "Challenge 1";
             this.label4.Click += new System.EventHandler(this.label4_Click);
-            // 
+            
             // label5
-            // 
+            
             this.label5.Location = new System.Drawing.Point(15, 62);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(92, 23);
             this.label5.TabIndex = 8;
             this.label5.Text = "Challenge 2";
-            // 
+         
             // label6
-            // 
+            
             this.label6.Location = new System.Drawing.Point(15, 134);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(79, 23);
             this.label6.TabIndex = 10;
             this.label6.Text = "Remarks:";
-            // 
+            
             // textBox5
-            // 
+            
             this.textBox5.BackColor = System.Drawing.Color.LightGray;
             this.textBox5.Location = new System.Drawing.Point(130, 131);
             this.textBox5.Name = "textBox5";
             this.textBox5.ReadOnly = true;
             this.textBox5.Size = new System.Drawing.Size(100, 25);
             this.textBox5.TabIndex = 11;
-            // 
             // label7
-            // 
+             
             this.label7.Location = new System.Drawing.Point(12, 52);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(92, 23);
             this.label7.TabIndex = 8;
             this.label7.Text = "Major Exam";
-            // 
+             
             // label8
-            // 
+             
             this.label8.Location = new System.Drawing.Point(12, 84);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(79, 23);
             this.label8.TabIndex = 11;
             this.label8.Text = "Remarks:";
-            // 
+             
             // textBox3
-            // 
+             
             this.textBox3.BackColor = System.Drawing.Color.LightGray;
             this.textBox3.Location = new System.Drawing.Point(126, 125);
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(100, 25);
             this.textBox3.TabIndex = 9;
-            // 
+             
             // label9
-            // 
+             
             this.label9.Location = new System.Drawing.Point(20, 127);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(79, 23);
             this.label9.TabIndex = 10;
             this.label9.Text = "Remarks:";
-            // 
+             
             // Form1
-            // 
+             
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(831, 500);
             this.Controls.Add(this.lblTitle);
